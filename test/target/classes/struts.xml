@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <constant name="struts.devMode" value="true"/>
+
+
+    <package name="test" namespace="/" extends="struts-default">
+
+        <action name="*_*"  class="cn.edu.bistu.action.{1}Action" method="{2}">
+            <result name="success">/welcome.jsp</result>
+            <result name="add_success">/add_success.jsp</result>
+            <result name="add_error">/add_error.jsp</result>
+            <result name="queryNum_success">/queryNum_success.jsp</result>
+            <result name="queryNum_error">/queryNum_error.jsp</result>
+            <result name="queryName_success">/queryName_success.jsp</result>
+            <result name="queryName_error">/queryName_error.jsp</result>
+            <result name="queryMohu_success">/queryName_success.jsp</result>
+            <result name="queryMohu_error">/queryName_error.jsp</result>
+           <!-- <result name="retrieve">/Stu_retrieve.action</result>-->
+            <allowed-methods>add,queryByNum,queryByName,retrieve,queryMohuName</allowed-methods>
+
+        </action>
+    </package>
+</struts>

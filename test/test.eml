@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_5" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="Maven: junit:junit:3.8.1" scope="TEST"/>
+	<lib name="Maven: javax.servlet:jsp-api:2.0" scope="PROVIDED"/>
+	<lib name="Maven: javax.servlet:servlet-api:2.4" scope="PROVIDED"/>
+	<levels>
+		<level name="Maven: junit:junit:3.8.1" value="project"/>
+		<level name="Maven: mysql:mysql-connector-java:5.1.40" value="project"/>
+		<level name="Maven: org.hibernate:hibernate-core:5.2.5.Final" value="project"/>
+		<level name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" value="project"/>
+		<level name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" value="project"/>
+		<level name="Maven: org.javassist:javassist:3.20.0-GA" value="project"/>
+		<level name="Maven: antlr:antlr:2.7.7" value="project"/>
+		<level name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" value="project"/>
+		<level name="Maven: org.jboss:jandex:2.0.3.Final" value="project"/>
+		<level name="Maven: com.fasterxml:classmate:1.3.0" value="project"/>
+		<level name="Maven: dom4j:dom4j:1.6.1" value="project"/>
+		<level name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" value="project"/>
+		<level name="Maven: javax.enterprise:cdi-api:1.1" value="project"/>
+		<level name="Maven: javax.el:el-api:2.2" value="project"/>
+		<level name="Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:1.0.0.Beta1" value="project"/>
+		<level name="Maven: javax.annotation:jsr250-api:1.0" value="project"/>
+		<level name="Maven: javax.inject:javax.inject:1" value="project"/>
+		<level name="Maven: org.apache.struts:struts2-core:2.5.5" value="project"/>
+		<level name="Maven: org.freemarker:freemarker:2.3.23" value="project"/>
+		<level name="Maven: ognl:ognl:3.1.10" value="project"/>
+		<level name="Maven: org.apache.logging.log4j:log4j-api:2.7" value="project"/>
+		<level name="Maven: commons-fileupload:commons-fileupload:1.3.2" value="project"/>
+		<level name="Maven: commons-io:commons-io:2.4" value="project"/>
+		<level name="Maven: org.apache.commons:commons-lang3:3.4" value="project"/>
+		<level name="Maven: org.ow2.asm:asm:5.1" value="project"/>
+		<level name="Maven: org.ow2.asm:asm-commons:5.1" value="project"/>
+		<level name="Maven: org.ow2.asm:asm-tree:5.1" value="project"/>
+		<level name="Maven: javax.servlet:jsp-api:2.0" value="project"/>
+		<level name="Maven: javax.servlet:servlet-api:2.4" value="project"/>
+	</levels>
+</component>
