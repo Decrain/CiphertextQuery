@@ -9,9 +9,9 @@
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 
 
-    <!--<property name="hibernate.connection.url">jdbc:mysql://jozif.org:36572/stu?characterEncoding=UTF-8</property>
-    <property name="hibernate.connection.username">KGp10bHVf3uVvN1H</property>
-    <property name="hibernate.connection.password">XA70Ge7bUJh99TmIYa8avuxHAb4IgR</property>-->
+    <!--<property name="hibernate.connection.url">database-url</property>
+    <property name="hibernate.connection.username">usrrname</property>
+    <property name="hibernate.connection.password">password</property>-->
 
     <!--云数据库配置-->
     <property name="hibernate.connection.url">jdbc:mysql://112.74.101.110:3306/stu?characterEncoding=UTF-8</property>
